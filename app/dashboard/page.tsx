@@ -1,5 +1,5 @@
 import { Suspense } from "react"
-import { fetchLatestInvoices, fetchRevenue } from "../lib/data"
+import { fetchLatestInvoices } from "../lib/data"
 import LatestInvoices from "../ui/dashboard/latest-invoices"
 import RevenueChart from "../ui/dashboard/revenue-chart"
 import { lusitana } from "../ui/fonts"
